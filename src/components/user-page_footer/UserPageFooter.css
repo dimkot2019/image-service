@@ -1,0 +1,25 @@
+.UserPageFooter {
+    display: flex;
+    width: 1280px;
+    height: 120px;
+    margin-top: 30px;   
+}
+
+.Search_user {
+    flex: 1;
+}
+
+.Search__input {
+    height: 30px;
+    padding: 0 15px;
+    border: 1px solid  #646260;;
+    border-radius: 5px;
+}
+
+.Add_photo {
+    flex: 1;
+}
+
+.Profile {
+    flex: 1;
+}

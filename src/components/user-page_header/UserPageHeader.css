@@ -1,0 +1,27 @@
+.UserPageHeader {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-color: rgb(175, 29, 29);
+}
+
+.UserPageHeader_top {
+    display: flex;
+    height: 120px;
+    width: 100%;
+}
+
+h1 {
+    margin: auto;
+    color: white;
+    font-style: normal;
+    letter-spacing: 8px;
+}
+
+.UserPageHeader_bottom {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* background: linear-gradient( rgba(255, 255, 255, 0.1), rgb(63, 62, 62) ); */
+}

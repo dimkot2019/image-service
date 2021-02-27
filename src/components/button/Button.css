@@ -1,19 +1,45 @@
 .Button {
     height: 30px;
-    padding: 0 15px;
+    padding: 3px 15px;
 
     border: none;
     border-radius: 0;
     font-weight: bold;
     text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Merriweather';
 }
 
 .Button_primary {
     background-color: rgba(138, 2, 2, 0.986);
     color: white;
+    border-radius: 5px;
+    /* margin: auto; */
+    /* align-items: flex-end; */
 }
 
 .Button_secondary {
     background-color: rgba(173, 173, 173, 0.986);
     color: rgb(0, 0, 0);
+    margin-top:20px; 
+    margin-left:auto;
+    border-radius: 5px;
+}
+
+.Button_third {
+    /* height: 45px;
+    width: 278px; */
+    margin-left: 34%;
+    background-color: rgba(138, 2, 2, 0.986);
+    color: white;
+    border-radius: 5px;
+}
+
+.Button_fourth {
+    /* height: 45px;
+    width: 278px; */
+    margin-left: 15%;
+    background-color: rgba(138, 2, 2, 0.986);
+    color: white;
+    border-radius: 5px;
 }

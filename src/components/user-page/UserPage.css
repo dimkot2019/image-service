@@ -1,0 +1,52 @@
+.UserPage {
+    display: flex;
+    height: 300px;
+    border: 1px solid  #ff7112;
+}
+
+.UserImages1 {
+    flex: 1;
+    height: 100%;
+    border: 1px solid white;
+    background-size: cover;
+    background-image: url('../../images/try__now1.jpeg');
+}
+
+.UserImages2 {
+    flex: 1;
+    background-image: url("../../images/try__now2.jpeg");
+    height: 100%;
+    border: 1px solid  white;
+    background-size: cover;
+}
+
+.UserImages3 {
+    flex: 1;
+    background-image: url("../../images/try__now3.jpeg");
+    height: 100%;
+    border: 1px solid  white;
+    background-size: cover;
+}
+
+.like_photo {
+    height: 25%;
+    width: 100%;
+    margin-top: 225px;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    background: linear-gradient( rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1) );
+}
+
+hr {
+    margin-block-start: 0em; 
+    margin-block-end: 0em;
+    height:1px;
+    border:none;
+    background-color:red;
+}
+
+.fa.fa-heart {
+    font-size: 28px;
+    margin-left: 30px;
+    margin-top: 25px;
+    color: red;
+} 
